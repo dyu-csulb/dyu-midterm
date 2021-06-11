@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   }
   ,h1: {
-    fontSize:40,
+    fontSize:30,
     color: 'white'
   }
   ,h2: {
