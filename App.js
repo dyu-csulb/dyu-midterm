@@ -9,7 +9,7 @@ export default function App() {
 
 
   function compareNumbers() {
-    
+
     if (Number(number1) < 2 || Number(number2) < 2) {
       return 'Invalid input, please try again.';
     }
@@ -89,7 +89,6 @@ const styles = StyleSheet.create({
     padding: 10,
     marginBottom: 10,
     borderColor: 'lightgray', 
-    borderWidth: 1,
   }
 
   ,inputArea : {
