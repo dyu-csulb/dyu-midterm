@@ -98,6 +98,6 @@ const styles = StyleSheet.create({
   }
 
   ,message: {
-
+    marginTop:15,
   }
 });
