@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 export default function App() {
   const [number1, onChangeNumber1] = useState([0]);
   const [number2, onChangeNumber2] = useState([0]);
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState([""]);
 
 
   function compareNumbers() {
@@ -75,7 +75,8 @@ const styles = StyleSheet.create({
   }
   ,h1: {
     fontSize:30,
-    color: 'white'
+    color: 'white',
+    textAlign: 'center'
   }
   ,h2: {
     fontSize:15,
